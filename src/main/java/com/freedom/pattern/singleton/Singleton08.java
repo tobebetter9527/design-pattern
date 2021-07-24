@@ -10,7 +10,6 @@ public enum Singleton08 {
 
   INSTANCE;
 
-
   public void doSomething() {
     System.out.println("Do something");
   }

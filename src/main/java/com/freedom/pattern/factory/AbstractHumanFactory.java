@@ -6,5 +6,6 @@ package com.freedom.pattern.factory;
  * @create 2020/06/28 22:50
  */
 public abstract class AbstractHumanFactory {
-    public abstract <T extends Human> T createHuman(Class<T> c);
+
+  public abstract <T extends Human> T createHuman(Class<T> c);
 }

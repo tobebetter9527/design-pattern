@@ -20,7 +20,6 @@ public class Singleton07 {
   }
 
   public static Singleton07 getInstance() {
-
     return InnerHolder.INSTANCE;
   }
 
